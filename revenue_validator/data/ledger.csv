@@ -1,0 +1,7 @@
+invoice_id,customer_id,invoice_date,service_month,invoice_amount,refund_amount,currency,status
+inv_001,c_01,2025-01-05,2025-01,1000,0,USD,paid
+inv_002,c_02,2025-01-12,2025-01,1200,0,USD,paid
+inv_003,c_03,2025-01-20,2025-01,800,200,USD,paid
+inv_004,c_01,2025-02-02,2025-02,1000,0,USD,paid
+inv_005,c_04,2025-02-10,2025-02,1500,0,USD,void
+inv_006,c_05,2025-02-15,2025-02,700,0,USD,paid

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finance-metrics-validator"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "duckdb",
+  "sqlglot",
+  "pydantic",
+  "rich",
+  "pandas",
+  "numpy"
+]
+
+[tool.setuptools]
+packages = ["revenue_validator"]
+
+[project.scripts]
+finance-validate = "revenue_validator.cli:main"

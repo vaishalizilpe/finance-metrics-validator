@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+.DS_Store
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Outputs
+revenue_validator/output/*.json
+
+# Egg info folder
+finance_metrics_validator.egg-info/
